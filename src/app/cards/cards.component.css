@@ -1,0 +1,118 @@
+.card-products-inside{
+ display: flex;
+ padding: 10px;
+ background-color: white;
+ max-width: 350px;
+ flex-wrap: wrap;
+ justify-content:space-around ;
+
+}
+.card-inside img{
+    width: 128px;
+    height: 102px;
+    
+    
+}
+.card-inside p{
+    margin: 0;
+   padding:10px 0px;
+   font-size: smaller;
+   
+   width: 120px;
+}
+.card-products-inside1{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    max-width: 350px;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+   
+   }
+   .card-inside1 img{
+       width: 112px;
+       height: 132px;
+       
+       
+   }
+   .card-inside1 p{
+       margin: 0;
+      padding:10px 0px;
+      font-size: smaller;
+      
+      width: 120px;
+   }
+.crad-product{
+    background:#ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 350px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1),
+    10px 10px 100px rgba(255, 255, 255, 0.1);
+}
+.crad-product h4{
+    margin: 0;
+    padding: 20px 0px;
+    padding-left: 25px;
+
+}
+.crad-product .link a{
+    padding: 10px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: #8EF3FB;
+}
+.card_product_container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -330px;
+
+    margin-bottom: 30px;
+}
+.card_product_container1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -330px;
+
+    margin-bottom: 30px;
+}
+.crad-product1 .card-products-inside .card-inside img{
+    width: 900px;
+    height: auto;
+    margin: 0px 100px 0px 0px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.products{
+    width: 360px;
+    background-color:#fff;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 10px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1),
+    10px 10px 100px rgba(255, 255, 255, 0.1);
+    margin-bottom: 360px;
+}
+.products .card-img img{
+    width: 325px;
+    height: 271px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+
+}
+.products .link a{
+    text-decoration: none;
+    color:#174E58 ;
+    padding: 10px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}

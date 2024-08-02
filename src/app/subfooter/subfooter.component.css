@@ -1,0 +1,37 @@
+.subfooter1{
+    display: flex;
+    position: relative;
+    max-width: 120%;
+    background-color: #131A22;
+    height: 290px;
+    /* top: -300px; */
+    justify-content: center;
+    align-items: center;
+}
+ .subfooter-content{
+   
+    width: 900px;
+    background-color: transparent;
+    height: 80px;
+   margin-bottom: 100px;
+   
+ 
+}
+.subfooter-content .col h6{
+    color:#aaacae ;
+    font-size: smaller;
+}
+.subfooter-content .col p{
+    color: #999999;
+    font-size: 12px;
+    width: 130px;
+}
+.row-inside{
+    color: #fff;
+    font-size: 13px;
+    padding-right: 10rem;
+   
+    width: 500px;
+    margin-left: 300px;
+    padding-bottom: 25px;
+}
